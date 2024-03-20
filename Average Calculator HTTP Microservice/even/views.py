@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-def even(request,numbers,windowPrevState,windowCurrState,avg):
+def even(numbers):
     count  = 0 
     for num in numbers:
         if num<=10:

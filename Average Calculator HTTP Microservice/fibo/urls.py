@@ -3,7 +3,7 @@ from . import views
 
 urlpatterns = [
 
-    path('',views.even(),name="even"),
+    path('',views.fibo(),name="fibo"),
 
    
 ]
